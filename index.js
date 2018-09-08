@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-bot.login("NDg4MTE4ODA0OTYzMTMxNDEy.DnXjyw.17QBS8b6CbVUASje3xUtCnvYNq8")
+bot.login("process.env.TOKEN")
 var prefix = ("?")
 
 bot.on('ready', function() {
