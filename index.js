@@ -35,6 +35,6 @@ bot.on("guildMemberRemove", member => {
 })
 
 bot.on('guildMemberAdd', member => {
-    var role = member.guild.roles.find('name', 'Anti-Raid')
+    var role = member.guild.roles.find('name', '[😃] Membre')
     member.addRole(role)
 })
