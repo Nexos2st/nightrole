@@ -4,7 +4,7 @@ bot.login(process.env.TOKEN)
 var prefix = ("?")
 
 bot.on('ready', function() {
-    bot.user.setPresence({ game: { name: 'ƝιgнтƑяєηcн', type: 2} })
+    bot.user.setPresence({ game: { name: 'ƝιgнтƑяєηcн', type: 3} })
     bot.user.setStatus('dnd');
     console.log("Connected");
 });
